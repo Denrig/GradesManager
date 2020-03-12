@@ -1,0 +1,201 @@
+12 Mar 2020 22:20:32,852 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:32,856 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:32,856 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:32,932 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:33,121 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:33,121 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:33,121 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:33,152 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:33,258 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:33,259 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:33,259 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:33,287 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:33,364 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:33,364 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:33,364 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:33,395 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:34,107 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:34,108 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:34,108 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:34,145 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:34,163 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:34,163 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:34,164 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:34,202 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:20:34,210 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:20:34,210 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:20:34,210 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:20:34,248 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:21,621 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:21,624 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:21,625 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:21,704 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:21,899 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:21,900 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:21,900 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:21,928 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:22,056 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:22,057 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:22,057 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:22,089 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:22,168 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:22,169 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:22,169 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:22,198 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:22,958 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:22,958 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:22,958 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:23,024 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:23,039 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:23,040 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:23,040 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:23,109 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:21:23,119 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:21:23,120 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:21:23,120 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:21:23,152 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:26:00,484 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:26:00,488 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:26:00,488 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:26:00,699 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:26:00,726 INFO  RepositoryTest 28 gradesRepoTest - Test FIND Ok
+12 Mar 2020 22:26:00,828 INFO  Repository.GradeRepository 55 save - Saved with succes class Repository.GradeRepository
+12 Mar 2020 22:26:00,829 INFO  RepositoryTest 32 gradesRepoTest - test SAVE Ok
+12 Mar 2020 22:26:00,886 INFO  Repository.GradeRepository 75 update - Updated with succes class Repository.GradeRepository
+12 Mar 2020 22:26:00,886 INFO  RepositoryTest 35 gradesRepoTest - Test UPDATE Ok
+12 Mar 2020 22:26:00,888 INFO  Repository.DBRepository 74 delete - Deleted whit succes
+12 Mar 2020 22:26:00,889 INFO  RepositoryTest 37 gradesRepoTest - Test DELETE Ok
+12 Mar 2020 22:33:27,248 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:33:27,252 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:33:27,252 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:33:27,329 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:33:27,355 INFO  RepositoryTest 28 gradesRepoTest - Test FIND Ok
+12 Mar 2020 22:33:27,369 INFO  Repository.GradeRepository 55 save - Saved with succes class Repository.GradeRepository
+12 Mar 2020 22:33:27,370 INFO  RepositoryTest 32 gradesRepoTest - test SAVE Ok
+12 Mar 2020 22:33:27,372 INFO  Repository.GradeRepository 75 update - Updated with succes class Repository.GradeRepository
+12 Mar 2020 22:33:27,373 INFO  RepositoryTest 35 gradesRepoTest - Test UPDATE Ok
+12 Mar 2020 22:33:27,375 INFO  Repository.DBRepository 74 delete - Deleted whit succes
+12 Mar 2020 22:33:27,375 INFO  RepositoryTest 37 gradesRepoTest - Test DELETE Ok
+12 Mar 2020 22:37:56,596 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:56,600 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:56,600 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:56,702 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:56,917 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:56,918 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:56,918 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:56,952 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:57,216 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:57,218 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:57,219 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:57,259 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:57,367 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:57,368 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:57,369 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:57,475 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:58,574 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:58,574 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:58,574 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:58,876 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:58,890 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:58,890 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:58,890 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:59,029 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:37:59,036 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:37:59,036 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:37:59,036 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:37:59,153 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:19,938 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:19,943 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:19,943 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:20,036 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:20,225 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:20,225 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:20,226 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:20,260 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:20,387 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:20,387 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:20,388 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:20,436 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:20,527 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:20,529 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:20,530 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:20,561 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:21,266 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:21,266 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:21,266 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:21,324 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:21,336 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:21,337 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:21,337 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:21,374 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:39:21,382 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:39:21,383 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:39:21,383 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:39:21,422 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:43:17,935 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:43:17,938 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:43:17,938 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:43:18,016 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:43:18,040 INFO  RepositoryTest 28 gradesRepoTest - Test FIND Ok
+12 Mar 2020 22:43:18,056 INFO  Repository.GradeRepository 55 save - Saved with succes class Repository.GradeRepository
+12 Mar 2020 22:43:18,057 INFO  RepositoryTest 32 gradesRepoTest - test SAVE Ok
+12 Mar 2020 22:43:18,060 INFO  Repository.GradeRepository 75 update - Updated with succes class Repository.GradeRepository
+12 Mar 2020 22:43:18,060 INFO  RepositoryTest 35 gradesRepoTest - Test UPDATE Ok
+12 Mar 2020 22:43:18,064 INFO  Repository.DBRepository 74 delete - Deleted whit succes
+12 Mar 2020 22:43:18,064 INFO  RepositoryTest 37 gradesRepoTest - Test DELETE Ok
+12 Mar 2020 22:45:02,605 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:02,608 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:02,608 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:02,879 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:03,091 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:03,092 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:03,092 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:03,149 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:03,280 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:03,281 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:03,281 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:03,339 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:03,413 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:03,413 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:03,413 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:03,480 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:04,343 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:04,344 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:04,344 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:04,440 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:04,454 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:04,454 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:04,454 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:04,540 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:45:04,556 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:45:04,557 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:45:04,557 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:45:04,666 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:06,881 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:06,885 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:06,886 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:07,014 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:07,241 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:07,241 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:07,242 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:07,273 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:07,386 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:07,386 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:07,387 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:07,420 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:07,494 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:07,494 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:07,494 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:07,527 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:08,236 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:08,236 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:08,236 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:08,274 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:08,287 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:08,288 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:08,288 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:08,342 INFO  Utils.JDBCutils 36 getNewConnection - Connected!
+12 Mar 2020 22:48:08,349 INFO  Utils.JDBCutils 23 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:8888/map
+12 Mar 2020 22:48:08,350 INFO  Utils.JDBCutils 24 getNewConnection - user: postgres
+12 Mar 2020 22:48:08,350 INFO  Utils.JDBCutils 25 getNewConnection - pass: q1w2e3r4t
+12 Mar 2020 22:48:08,388 INFO  Utils.JDBCutils 36 getNewConnection - Connected!

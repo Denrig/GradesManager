@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="anchor" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0"
+            xmlns="http://javafx.com/javafx/8.0.171" fx:controller="UI.GUI.TemaController">
+    <children>
+        <TitledPane animated="false" collapsible="false" maxHeight="-Infinity" maxWidth="-Infinity"
+                    minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="60.0" text=""
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+            <content>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                        <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="60.0"
+                              AnchorPane.bottomAnchor="-13.0" AnchorPane.leftAnchor="8.0">
+                            <children>
+                                <Button fx:id="addButton" minHeight="-Infinity" minWidth="-Infinity"
+                                        mnemonicParsing="false" mouseTransparent="false" onAction="#addButtonAction"
+                                        pickOnBounds="false" prefHeight="60.0" prefWidth="60.0" text="Button">
+                                    <graphic>
+                                        <ImageView fitHeight="51.0" fitWidth="39.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="false" smooth="false">
+                                            <image>
+                                                <Image url="@Img/Untitled-2.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/transparent.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets top="50.0" fx:id="x1"/>
+                                    </VBox.margin>
+                                </Button>
+                                <Button id="deleteButton" minHeight="-Infinity" minWidth="-Infinity"
+                                        mnemonicParsing="false" onAction="#deletePaneAction" prefHeight="60.0"
+                                        prefWidth="60.0" text="Button">
+                                    <graphic>
+                                        <ImageView fitHeight="50.0" fitWidth="44.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@Img/1.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/transparent.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets top="50.0" fx:id="x2"/>
+                                    </VBox.margin>
+                                </Button>
+                                <Button fx:id="filterButton" minHeight="-Infinity" minWidth="-Infinity"
+                                        mnemonicParsing="false" onAction="#filterButtonAction" prefHeight="60.0"
+                                        prefWidth="60.0" text="Button">
+                                    <graphic>
+                                        <ImageView fitHeight="150.0" fitWidth="50.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@Img/filter-512.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/transparent.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets top="50.0" fx:id="x3"/>
+                                    </VBox.margin>
+                                </Button>
+                                <Button fx:id="updateButton" minHeight="-Infinity" minWidth="-Infinity"
+                                        mnemonicParsing="false" onAction="#updateButtonAction" prefHeight="60.0"
+                                        prefWidth="60.0" text="Button">
+                                    <graphic>
+                                        <ImageView fitHeight="15050.0" fitWidth="50.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@Img/64056.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/transparent.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets top="50.0" fx:id="x4"/>
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+            <stylesheets>
+                <URL value="@Styles/titeldPane.css"/>
+            </stylesheets>
+        </TitledPane>
+        <TableView fx:id="table" disable="false" editable="true" layoutX="60.0" minHeight="-Infinity"
+                   minWidth="-Infinity" onMouseClicked="#viewTema" prefHeight="600.0" prefWidth="550.0"
+                   tableMenuButtonVisible="false" AnchorPane.bottomAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="id" maxWidth="5000.0" minWidth="10.0" prefWidth="40.0" text=" ID:"/>
+                <TableColumn fx:id="titluColumn" prefWidth="153.0" text="TItilu"/>
+                <TableColumn fx:id="start" maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" text="StartWeek"/>
+                <TableColumn fx:id="end" maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" resizable="false"
+                             text="EndWeek"/>
+                <TableColumn fx:id="active" maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="Active"/>
+                <TableColumn fx:id="difficulty" maxWidth="5000.0" minWidth="10.0" prefWidth="116.0" text="Difficulty"/>
+            </columns>
+            <stylesheets>
+                <URL value="@Styles/tabelView.css"/>
+            </stylesheets>
+        </TableView>
+        <TitledPane id="operationSegment" animated="false" collapsible="false" ellipsisString="" minHeight="-Infinity"
+                    minWidth="-Infinity" prefHeight="600.0" prefWidth="240.0" text="Operation"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <content>
+                <AnchorPane fx:id="operationPane" prefHeight="600.0" prefWidth="240.0">
+                    <children>
+                        <Label fx:id="errorLabel" alignment="CENTER" prefHeight="100.0" prefWidth="240.0" text=""
+                               textAlignment="CENTER" textFill="#ff3333" wrapText="true" AnchorPane.rightAnchor="0.0"
+                               AnchorPane.topAnchor="0.0">
+                            <font>
+                                <Font name="Arial Black" size="14.0" fx:id="x2"/>
+                            </font>
+                        </Label>
+                        <VBox fx:id="addPane" fillWidth="true" maxHeight="-Infinity" maxWidth="-Infinity"
+                              minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="240.0"
+                              visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="40.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
+                                               minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0"
+                                               prefWidth="48.0" text="Titlu" textAlignment="CENTER" wrapText="true">
+                                            <font>
+                                                <Font name="Arial Bold" size="15.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="titleAdd" minHeight="-Infinity" minWidth="-Infinity">
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="50.0"
+                                               text="Start" textAlignment="CENTER" wrapText="true"/>
+                                        <DatePicker fx:id="addStart" prefHeight="25.0" prefWidth="180.0">
+                                            <HBox.margin>
+                                                <Insets left="15.0"/>
+                                            </HBox.margin>
+                                        </DatePicker>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="20.0" fx:id="x3"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="50.0"
+                                               text="End" textAlignment="CENTER" wrapText="true"/>
+                                        <DatePicker fx:id="addEnd" prefHeight="25.0" prefWidth="180.0">
+                                            <HBox.margin>
+                                                <Insets left="15.0"/>
+                                            </HBox.margin>
+                                        </DatePicker>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" minHeight="-1.0" minWidth="-Infinity"
+                                               prefHeight="60.0" prefWidth="80.0" text="Dificulty"
+                                               textAlignment="CENTER" wrapText="true">
+                                            <HBox.margin>
+                                                <Insets top="10.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <ComboBox fx:id="comboAdd" focusTraversable="false" maxHeight="-Infinity"
+                                                  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                                  prefHeight="30.0" prefWidth="150.0" promptText="Select one">
+                                            <items>
+                                                <FXCollections fx:factory="observableArrayList">
+                                                    <String fx:value="Easy"/>
+                                                    <String fx:value="Medium"/>
+                                                    <String fx:value="Hard"/>
+                                                </FXCollections>
+                                            </items>
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                        </ComboBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <ToggleButton fx:id="activeAdd" maxHeight="-Infinity" maxWidth="-Infinity"
+                                                      minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+                                                      prefHeight="30.0" prefWidth="100.0" text="Active">
+                                            <stylesheets>
+                                                <URL value="@Styles/toggle.css"/>
+                                            </stylesheets>
+                                            <HBox.margin>
+                                                <Insets left="120.0"/>
+                                            </HBox.margin>
+                                        </ToggleButton>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <Button id="checkButton" maxHeight="-Infinity" maxWidth="-Infinity"
+                                        minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+                                        onAction="#addAction" prefHeight="40.0" prefWidth="130.0" text="Execute">
+                                    <graphic>
+                                        <ImageView fitHeight="50.0" fitWidth="40.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@/Img/261-2612213_black-tick-png-round-check-mark-transparent-png%20copy.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/checkButton.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets left="100.0" top="160.0"/>
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="deletePane" prefHeight="450.0" prefWidth="240.0" visible="false"
+                              AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <Label alignment="CENTER" prefHeight="60.0" prefWidth="210.0"
+                                       text="Sunteti sigur ca vreti sa stergeti assignment?" textAlignment="CENTER"
+                                       wrapText="true">
+                                    <font>
+                                        <Font name="Arial Italic" size="14.0" fx:id="x4"/>
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="10.0" top="20.0"/>
+                                    </VBox.margin>
+                                </Label>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" onAction="#deleteAction" text="Da">
+                                            <HBox.margin>
+                                                <Insets left="50.0" fx:id="x5"/>
+                                            </HBox.margin>
+                                        </Button>
+                                        <Button id="cancelAction" mnemonicParsing="false" onAction="#cancelAction"
+                                                text="Nu" HBox.margin="$x5"/>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="updatePane" fillWidth="true" maxHeight="-Infinity" maxWidth="-Infinity"
+                              minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="240.0"
+                              visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <HBox maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                      prefHeight="40.0">
+                                    <children>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0"
+                                               prefWidth="55.0" text="TItlu" textAlignment="CENTER" wrapText="true">
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                            <font>
+                                                <Font name="Arial Bold" size="15.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="titleUpdate" maxHeight="-Infinity" minHeight="-Infinity"
+                                                   prefHeight="30.0">
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                        </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="50.0"
+                                               text="Start" textAlignment="CENTER" wrapText="true"/>
+                                        <DatePicker fx:id="updateStart" prefHeight="25.0" prefWidth="180.0">
+                                            <HBox.margin>
+                                                <Insets left="15.0"/>
+                                            </HBox.margin>
+                                        </DatePicker>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="20.0" fx:id="x3"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="50.0"
+                                               text="End" textAlignment="CENTER" wrapText="true"/>
+                                        <DatePicker fx:id="updateEnd" prefHeight="25.0" prefWidth="180.0">
+                                            <HBox.margin>
+                                                <Insets left="15.0"/>
+                                            </HBox.margin>
+                                        </DatePicker>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" minHeight="-1.0" minWidth="-Infinity"
+                                               prefHeight="60.0" prefWidth="80.0" text="Dificulty"
+                                               textAlignment="CENTER" wrapText="true">
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <ComboBox fx:id="updateCombo" focusTraversable="false" maxHeight="-Infinity"
+                                                  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                                  prefHeight="30.0" prefWidth="150.0" promptText="Select one">
+                                            <items>
+                                                <FXCollections fx:factory="observableArrayList">
+                                                    <String fx:value="Easy"/>
+                                                    <String fx:value="Medium"/>
+                                                    <String fx:value="Hard"/>
+                                                </FXCollections>
+                                            </items>
+                                            <HBox.margin>
+                                                <Insets top="5.0"/>
+                                            </HBox.margin>
+                                        </ComboBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <ToggleButton fx:id="activeUpdate" maxHeight="-Infinity" maxWidth="-Infinity"
+                                                      minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+                                                      prefHeight="30.0" prefWidth="100.0" text="Active">
+                                            <stylesheets>
+                                                <URL value="@Styles/toggle.css"/>
+                                            </stylesheets>
+                                            <HBox.margin>
+                                                <Insets left="120.0"/>
+                                            </HBox.margin>
+                                        </ToggleButton>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <Button id="checkButton" maxHeight="-Infinity" maxWidth="-Infinity"
+                                        minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+                                        onAction="#updateAction" prefHeight="40.0" prefWidth="130.0" text="Execute">
+                                    <graphic>
+                                        <ImageView fitHeight="50.0" fitWidth="40.0" mouseTransparent="true"
+                                                   pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@/Img/261-2612213_black-tick-png-round-check-mark-transparent-png%20copy.png"/>
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <stylesheets>
+                                        <URL value="@Styles/checkButton.css"/>
+                                    </stylesheets>
+                                    <VBox.margin>
+                                        <Insets left="100.0" top="130.0"/>
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                        <VBox fx:id="filterPane" fillWidth="true" maxHeight="-Infinity" maxWidth="-Infinity"
+                              minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="240.0"
+                              visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            <children>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="80.0"
+                                               text="Start" textAlignment="CENTER" wrapText="true"/>
+                                        <TextArea id="Nume" fx:id="filterTextStart" cache="true" cacheHint="DEFAULT"
+                                                  depthTest="INHERIT" maxHeight="-Infinity" maxWidth="-Infinity"
+                                                  minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0"
+                                                  prefWidth="190.0" promptText="" text="" wrapText="true">
+                                            <HBox.margin>
+                                                <Insets fx:id="x3"/>
+                                            </HBox.margin>
+                                        </TextArea>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets fx:id="x3"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="120.0"
+                                               text="End" textAlignment="CENTER" wrapText="true"/>
+                                        <TextArea id="Prenume" fx:id="filterTextEnd" maxHeight="-Infinity"
+                                                  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                                  prefHeight="26.0" prefWidth="190.0" promptText="" text=""
+                                                  wrapText="true">
+                                            <HBox.margin>
+                                                <Insets fx:id="x3"/>
+                                            </HBox.margin>
+                                        </TextArea>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" prefHeight="60.0" prefWidth="60.0"
+                                               text="Active" textAlignment="CENTER" wrapText="true"/>
+                                        <TextArea id="An" fx:id="filterTextActive" maxHeight="-Infinity"
+                                                  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                                  prefHeight="26.0" prefWidth="170.0" promptText="" text=""
+                                                  wrapText="true">
+                                            <HBox.margin>
+                                                <Insets fx:id="x3"/>
+                                            </HBox.margin>
+                                        </TextArea>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                                      minWidth="-Infinity" prefHeight="30.0" prefWidth="235.0">
+                                    <children>
+                                        <Label alignment="CENTER" font="$x2" minHeight="-1.0" minWidth="-Infinity"
+                                               prefHeight="60.0" prefWidth="80.0" text="Dificulty"
+                                               textAlignment="CENTER" wrapText="true"/>
+                                        <TextArea id="Grupa" fx:id="filterTextDificulty" maxHeight="-Infinity"
+                                                  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                                  prefHeight="26.0" prefWidth="150.0" promptText="" text=""
+                                                  visible="true" wrapText="true">
+                                            <HBox.margin>
+                                                <Insets fx:id="x3"/>
+                                            </HBox.margin>
+                                        </TextArea>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="30.0"/>
+                                    </VBox.margin>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+            <stylesheets>
+                <URL value="@Styles/titeldPane.css"/>
+            </stylesheets>
+        </TitledPane>
+    </children>
+</AnchorPane>

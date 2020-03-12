@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: #acabab;
+}
+
+.table-view {
+    -fx-background-color: #b6b6b6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #acabab;
+}
+
+.table-view .column-header {
+    -fx-background-color: rgba(182, 182, 182, 0);
+    -fx-border-color: #9b9b9b;
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #84b3ff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}

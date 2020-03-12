@@ -1,0 +1,15 @@
+.button {
+   -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-color: #97a9ff;
+    -fx-padding: 16px 32px;
+    -fx-text-align: center;
+    -fx-font-size: 16px;
+    -fx-margin: 4px 2px;
+    -fx-opacity: 0.6;
+    -fx-transition: 0.3s;
+}
+
+.button:hover {-fx-opacity: 1;
+    -fx-background-color: #97a9ff;
+}

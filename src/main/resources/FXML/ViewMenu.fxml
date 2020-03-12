@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainGUI">
+   <children>
+      <TabPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab onSelectionChanged="#showCombo" text="Studenti">
+            <content>
+              <AnchorPane fx:id="studentPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab onSelectionChanged="#showCombo" text="Note">
+            <content>
+              <AnchorPane fx:id="gradesPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab onSelectionChanged="#hideCombo" text="Discipline">
+               <content>
+                  <AnchorPane fx:id="classPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+            <Tab text="NoteFinale">
+                <content>
+                    <AnchorPane fx:id="finalPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <ComboBox fx:id="disciplinaSelector" minHeight="-Infinity" minWidth="-Infinity" onAction="#changeDis" prefHeight="30.0" prefWidth="200.0" promptText="Disciplina" styleClass="combo-box" stylesheets="@Styles/comboBox.css" AnchorPane.leftAnchor="800.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="label" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="400.0" text="Selectati o disciplina-&gt;&gt;&gt;&gt;" textAlignment="RIGHT" textFill="#67c77fe5" wrapText="true" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

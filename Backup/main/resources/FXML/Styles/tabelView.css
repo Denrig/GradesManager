@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: #acabab;
+}
+
+.table-view {
+    -fx-background-color: rgba(172, 171, 171, 0);
+}
+
+.table-view:focused {
+    -fx-background-color: rgba(172, 171, 171, 0);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #acabab;
+}
+
+.table-view .column-header {
+    -fx-background-color: rgba(182, 182, 182, 0);
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
